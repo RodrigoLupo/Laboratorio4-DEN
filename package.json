@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "express": "^4.19.2",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  },
+  "name": "lab04",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./public/styles/tailwind.css -o ./public/styles/output.css --watch"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
